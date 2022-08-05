@@ -1,13 +1,19 @@
 {
   "name": "@tim2538/backspace",
-  "version": "0.0.2",
-  "description": "revise typescript",
+  "version": "0.0.3",
+  "description": "implement MUI button",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c"
   },
   "author": "tim2538",
   "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.9.3",
+    "@mui/system": "^5.9.3"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
